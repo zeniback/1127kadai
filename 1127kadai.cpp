@@ -2,29 +2,33 @@
 
 class calculator{
     public:
-    int x;
-    int y;
+    double x;
+    double y;
 
     void Add(){
-        printf("%d\n",x+y);
+        printf("%lf\n",x+y);
     }
 
     void Sub(){
-        printf("%d\n",x-y);
+        printf("%lf\n",x-y);
     }
 
     void Mul(){
-        printf("%d\n",x*y);
+        printf("%lf\n",x*y);
     }
 
     void Div(){
-        printf("%d\n",x/y);
+        printf("%lf\n",x/y);
     }
 };
 
 int main(){
     calculator data1;
+
+    printf("Input x\n");
     data1.x =10;
+
+    printf("Input y\n");
     data1.y =2;
 
     data1.Add();
