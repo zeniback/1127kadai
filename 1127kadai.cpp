@@ -6,19 +6,19 @@ class calculator{
     double y;
 
     void Add(){
-        printf("%lf\n",x+y);
+        printf("addition %lf\n",x+y);
     }
 
     void Sub(){
-        printf("%lf\n",x-y);
+        printf("subtraction %lf\n",x-y);
     }
 
     void Mul(){
-        printf("%lf\n",x*y);
+        printf("multiplocayion %lf\n",x*y);
     }
 
     void Div(){
-        printf("%lf\n",x/y);
+        printf("division %lf\n",x/y);
     }
 };
 
@@ -26,10 +26,10 @@ int main(){
     calculator data1;
 
     printf("Input x\n");
-    data1.x =10;
+    scanf("%lf", &data1.x);
 
     printf("Input y\n");
-    data1.y =2;
+    scanf("%lf", &data1.y);
 
     data1.Add();
     data1.Sub();
